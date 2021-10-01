@@ -1,0 +1,131 @@
+a {
+    background-color: salmon ;
+    color: black;
+    text-decoration: none;
+}
+
+#current_page {
+    background-color: aquamarine;
+}
+
+.nav_link {
+    background-color: lightgray;
+}
+
+.nav_link:hover, #current_page:hover {
+    background-color: yellowgreen;
+}
+
+#firstname:active {
+    background-color: yellow;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div span {
+    background-color: violet;    
+}
+
+div {
+    text-indent: 35px;
+
+}
+
+/* I am a comment. */
+
+h1 {
+    font-size:45px;
+    font-weight: normal;
+    /* font-style:italic; */
+    text-transform: capitalize;
+    /* text-decoration: line-through; */
+    text-align: center;
+    text-shadow: 2px 2px 10px yellow;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+
+#product_list li {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+ul > li {
+    /* list-style-type: square; */
+    list-style: url("../images/blue_dot.png") square outside;
+}
+.about_us_photo {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 189, 189);
+    margin: 25px;
+    padding: 50px;
+    border: 5px solid red;
+    border-radius: 20px;
+    /* box-sizing: content-box; */
+    box-shadow: 4px 4px 10px yellow;
+    display: inline-block;
+    vertical-align: middle;
+    /* position: relative */
+;
+}
+
+#box1 {
+    background-image: url("../images/img_tree.jpg");
+    /* position: absolute;  */
+    /* top: 200px;
+    left: 200px;
+    z-index: -2; */
+}
+
+#box2 {
+    background-image: url("../images/img_ShinjukuBranch.jpg");
+    /* overflow: scroll; */
+}
+#box3 {
+    background-image: url("../images/img_OsakaBranch.jpg");
+    background-repeat: no-repeat;
+    /* background-position: 100px 50px; */
+    /* background-attachment: scroll; */
+    background-size: center;
+    background: rgb(0,189,0) url("../images/img_OsakaBranch.jpg")  no-repeat 20px 20px;
+}
+#box4 {
+    background-image: url("../images/img_building.jpg");
+}
+#box5 {
+    background-image: url("../images/img_CEO.jpg");
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+}
+
+table {
+    /* empty-cells: hide; */
+    /* border-spacing: 7px; */
+    /* border-collapse: separate; */
+}
+
+td, th, table {
+    border: 3px solid blue;
+}
+
+#sample_pic {
+    width: 200px;
+    float: right;
+}
+
+#sample_p {
+    clear: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    background-color: brown;
+}

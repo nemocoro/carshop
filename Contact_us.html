@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contaut Us</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+    <div id="container">
+         <header>
+            <h1>Carshop Company</h1>
+            <h2>Contaut Us</h2>
+            <hr>
+            <nav>
+                <a class="nav_link" id="current_page" href="index.html">Home</a>
+                <a class="nav_link" href="products.html">Products</a>
+                <a class="nav_link" href="about_us.html">About Us</a>
+                <a class="nav_link" href="contact_us.html">Contact Us</a>
+            </nav>           
+         </header>
+    <!-- <a href="https://www.yahoo.co.jp/">Yahoo Japan</a> -->
+    <br>
+    <form>
+        <labrl for="firstname">Firstname:</labrl>
+        <input type="text" name="firstname" id="firstname" placeholder="Fistname">
+        <labrl for="lastname">Lastname:</labrl>
+        <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="pword">
+        <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <br>
+        <label for="type_of_inquiry">Inquiry Type:</label>
+        <br>
+        <input type="radio" id="general_inquiry" name="type_of_inquiry" value="general_inquiry">
+        <label for="general_inquiry">General Inquiry</label>
+        <br>
+        <input type="radio" id="suggestions" name="type_of_inquiry" value="suggestions">
+        <label for="suggestions">Suggestions</label>
+        <br>
+        <input type="radio" id="appointments"  name="type_of_inquiry" value="appointments">
+        <label for="appointments">Appointments</label>
+        <br>
+        <label for="advertisement">How did you learn about us?</label>
+        <br>
+        <input type="checkbox" id="social_media" value="social_media">
+        <label for="social_media">Social Media</label>
+        <br>
+        <input type="checkbox" id="billboards" name="billboards" value="billboards">
+        <label for="billboards">Billboards</label>
+        <br> 
+        <input type="checkbox" id="television" name="television" value="television">
+        <label for="television">Television</label>
+        <br>
+        <input type="checkbox" id="radio" name="radio" value="radio">
+        <label for="radio">Radio</label>
+        <br> 
+        <input type="checkbox" id="pamphlets" name="pamphlets" value="pamphlets">
+        <label for="pamphlets">Pamphlets</label>
+        <br>
+        <label for="country_of_origin">Country_of Origin</label>
+        <select id="country_of_origin" name="country_of_origin">
+            <option value="australia">Australia</option>
+            <option value="brazil">Brazil</option>
+            <option value="cyprus">Cyprus</option>
+            <option value="djibouti">Djibouti</option>
+            <option value="eritres">Eritres</option>
+            <option value="france">France</option>
+            <option value="germany">Germany</option>
+            <option value="haiti">Haiti</option>
+        </select>
+        <br>
+        <label for="countries_visited">Countries Visited:</label>
+        <select id="countries_visited" multiple>
+            <option value="austria">Austria</option>
+            <option value="belgium">Belgium</option>
+            <oprion value="canada">Canada</oprion>
+            <option value="denmark">Denmark</option>
+            <option value="egypt">Egypt</option>
+            <option value="finland">Finland</option>
+            <option value="ghana">Ghana</option>
+            <option value="hungary">Hungary</option>
+        </select>
+            <br>
+            <label for="zip_code">Zip Code:</label>
+            <input type="number" name="zip_code" id="zip_code" min="1000" max="9999">
+            <br>
+            <label for="file_upload">File:</label>
+            <input type="file" id="file_upload" name="file_upload">
+            <br>
+            <button type="submit" value="submit">Submit</button>
+            <br>
+            <input type="button" value="Click me">
+            <br>
+            <input type="image" src="images/blue_dot.png" alt="Picture of a blue button.">
+            <br>       
+
+
+    </for>
+    </div>
+    
+</body>
+</html>
