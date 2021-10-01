@@ -108,6 +108,7 @@ table {
     /* empty-cells: hide; */
     /* border-spacing: 7px; */
     /* border-collapse: separate; */
+    background-color: rgb(181, 181, 240);
 }
 
 td, th, table {
